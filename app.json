@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "ndt-nation-app",
+    "name": "NDT Nation",
     "slug": "ndt-nation-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "owner": "primeeba",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "631d9554-6eb1-43e4-bbcf-260182476c19"
+      }
     }
   }
 }
